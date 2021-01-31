@@ -1,0 +1,101 @@
+@c: #292D3F;
+body {
+  background-color: @c;
+  font-family: sans-serif;
+  height: 100vh;
+  margin: 0;
+}
+@font-face {
+  font-family: 'CourCyr';
+  src: url("https://utidteam.com/fonts/cool_font.ttf");
+}
+.compile {
+  @media screen and (orientation:portrait) {
+    width: 100%;
+  }
+  margin: 5px 0;
+  padding: 15px 45px;
+  background-color: @c;
+  border: 1px solid white;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+}
+#code {
+  height: 100%;
+}
+.CodeMirror {
+  border: 1px solid white;
+  border-radius: 5px;
+  height: 100% !important;
+
+  * {
+    font-family: 'CourCyr';
+    font-size: 13px;
+  }
+}
+p {
+  margin-top: 0;
+  color: #fff;
+}
+.output {
+  @media screen and (orientation:portrait) {
+    height: 50%;
+  }
+  display: flex;
+  flex-direction: column;
+  p {
+    @media screen and (orientation:portrait) {
+      margin-top: 32px;
+    }
+    margin-top: 0;
+  }
+  #output {
+    background-color: @c;
+    border: 1px solid white;
+    color: #fff;
+    border-radius: 5px;
+    resize: none;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    font-family: 'CourCyr';
+    padding: 10px;
+  }
+}
+.main-grid {
+  @media screen and (orientation:portrait) {
+    flex-direction: column;
+  }
+
+  width: 100%;
+  padding: 8px;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+
+  .compilation {
+    @media screen and (orientation:portrait) {
+      margin-right: 0;
+      height: 50%;
+    }
+    display: flex;
+    flex-direction: column;
+    margin-right: 10px;
+  }
+
+  & > * {
+    @media screen and (orientation:portrait) {
+      width: 100%;
+    }
+
+    width: 50%;
+    box-sizing: border-box;
+  }
+}
+#output {
+  label {
+    display: block;
+  }
+}
