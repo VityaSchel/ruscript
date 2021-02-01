@@ -7,6 +7,10 @@ let editor = CodeMirror.fromTextArea(document.querySelector('textarea#code'), {
   font: "monospace"
 });
 
+let _imported = new URLSearchParams(new URL(document.location.href).searchParams).get("text");
+if(_imported !== null && _imported !== undefined && _imported !== "")
+  editor.setValue(decodeURI(_imported))
+
 document.querySelector(".compile").addEventListener("click", compile)
 function compile(){
   document.querySelector('#output').innerHTML = "";
