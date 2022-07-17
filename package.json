@@ -1,0 +1,25 @@
+{
+  "name": "ruscript",
+  "version": "1.0.0",
+  "description": "Высокоуровневый конкативный эзотерический язык программирования с русскоязычным синтаксисом, компилирующийся в JavaScript",
+  "main": "рускрипт/рускрипт.js",
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VityaSchel/ruscript.git"
+  },
+  "keywords": [
+    "programming-language",
+    "javascript"
+  ],
+  "author": "vityaschel <hi@hloth.dev> (https://hloth.dev/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/VityaSchel/ruscript/issues"
+  },
+  "homepage": "https://github.com/VityaSchel/ruscript#readme"
+}
