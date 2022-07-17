@@ -1,5 +1,5 @@
 {
-  "name": "ruscript",
+  "name": "esoteric-ruscript",
   "version": "1.0.0",
   "description": "Высокоуровневый конкативный эзотерический язык программирования с русскоязычным синтаксисом, компилирующийся в JavaScript",
   "main": "рускрипт/рускрипт.js",
@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/VityaSchel/ruscript/issues"
   },
+  "files": [
+    "рускрипт/рускрипт.js"
+  ],
   "homepage": "https://github.com/VityaSchel/ruscript#readme"
 }
