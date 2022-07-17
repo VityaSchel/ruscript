@@ -8,7 +8,13 @@
 ```
 
 [Увидеть больше примеров](https://github.com/VityaSchel/ruscript/tree/master/примеры/)
-[Перейти в песочницу](https://vityaschel.github.io/ruscript/demo.html)
+• [Перейти в песочницу](https://vityaschel.github.io/ruscript/demo.html)
+
+## Установить
+
+```
+npm i esoteric-ruscript
+```
 
 0. Основы
 1. Переменные
